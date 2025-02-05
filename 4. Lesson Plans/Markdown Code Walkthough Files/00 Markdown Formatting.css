@@ -1,0 +1,47 @@
+/*Using Website https://md-to-pdf.fly.dev/ */
+
+
+body {
+    font-family: Calibri, sans-serif;
+    color: Black;
+}
+p {
+    line-height: 1.5;
+}
+h1 {
+    border-bottom: 2px solid SlateGray;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+tr:nth-child(even) {
+    background-color: LightGray;
+}
+tr:hover {
+    background-color: LightGoldenrodYellow;
+}
+h1, h2 {
+    text-align: center;
+}
+.box {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+code, pre {
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 4px; /* Optional: rounded corners */
+    padding: 0.2em 0.4em; /* Optional: padding for better readability */
+    display: inline-block; /* Ensures background spans only the code text */
+}
+
+ul {
+    list-style-type: disc; /* Ensures bullets are displayed */
+    margin-left: 1.5em; /* Adds indentation */
+    padding-left: 0; /* Removes default padding */
+}
+
+li {
+    margin-bottom: 0.5em; /* Space between list items */
+}
