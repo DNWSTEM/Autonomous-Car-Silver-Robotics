@@ -122,6 +122,7 @@ void right(int speed){
 }
 
 void stop(){
+
     analogWrite(leftSpeedPin, 0);
     analogWrite(rightSpeedPin, 0);
 }

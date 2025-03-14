@@ -38,8 +38,8 @@ void loop() {
     Serial.println("Left");
     left(220);
   }
-  else[
+  else{
     Serial.println("Stop");
     stop();
-  ]
+  }
 }
